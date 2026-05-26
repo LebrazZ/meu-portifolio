@@ -1,74 +1,243 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio | Letícia Silva</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Leticia Braz | Portfólio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <div class="container">
+  <header>
+    <div class="container navbar">
 
-        <header>
-            <h1>Letícia Silva</h1>
-            <p>Desenvolvedora Front-End</p>
-        </header>
+      <h1 class="logo">Leticia Braz</h1>
 
-        <section class="projetos" id="projetos">
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
 
-            <h2>Meus Projetos</h2>
+    </div>
+  </header>
 
-            <div class="container-projetos">
+  <section class="hero">
 
-                <div class="card">
-                    <h3>Portfólio Pessoal</h3>
+    <div class="container hero-content">
 
-                    <p>
-                        Meu primeiro site publicado utilizando GitHub Pages.
-                    </p>
+      <p class="subtitle">Estudante de TI</p>
 
-                    <a href="https://github.com/LebrazZ/meu-portifolio.git" target="_blank">
-                        Ver no GitHub
-                    </a>
-                </div>
+      <h2>
+        LETICIA <span>BRAZ</span>
+      </h2>
 
-                <div class="card">
-                    <h3>Jogo da Memória</h3>
+      <p class="description">
+        Explorando diferentes áreas da tecnologia,
+        transformando aprendizado em soluções criativas e funcionais.
+      </p>
 
-                    <p>
-                        Projeto interativo desenvolvido com HTML, CSS e JavaScript.
-                    </p>
+      <div class="buttons">
 
-                    <a href="https://github.com/LebrazZ/Jogo-da-memoria.git" target="_blank">
-                        Ver Projeto
-                    </a>
-                </div>
+        <a
+          href="https://github.com/LebrazZ"
+          target="_blank"
+          class="btn primary"
+        >
+          GitHub
+        </a>
 
-                <div class="card">
-                    <h3>Todo List Avançada</h3>
+        <a
+          href="https://www.linkedin.com/in/let%C3%ADcia-silva-braz-770307345"
+          target="_blank"
+          class="btn"
+        >
+          LinkedIn
+        </a>
 
-                    <p>
-                        Lista de tarefas com funcionalidades avançadas e design moderno.
-                    </p>
+        <a
+          href="assets/curriculo.pdf"
+          download
+          class="btn"
+        >
+          Download CV
+        </a>
 
-                    <a href="https://github.com/LebrazZ/todo-list-avancada.git" target="_blank">
-                        Ver Projeto
-                    </a>
-                </div>
-
-            </div>
-
-        </section>
-
-        <footer>
-            © 2026 - Desenvolvido por Letícia Silva
-        </footer>
+      </div>
 
     </div>
 
-    <script src="script.js"></script>
+  </section>
+
+  <section id="sobre">
+
+    <div class="container">
+
+      <div class="section-title">
+        <p>Sobre Mim</p>
+        <h3>Sempre em evolução dentro da tecnologia.</h3>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="card">
+          <h4>Quem sou</h4>
+
+          <p>
+            Sou estudante de Análise e Desenvolvimento de Sistemas
+            pela Universidade Positivo, atualmente no 3º período.
+          </p>
+        </div>
+
+        <div class="card">
+          <h4>Experiência</h4>
+
+          <p>
+            Atuo como Aprendiz de TI na DBM Contact Center,
+            trabalhando com QA e Chat Bots.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="tecnologias">
+
+    <div class="container">
+
+      <div class="section-title">
+        <p>Tecnologias</p>
+        <h3>Ferramentas e estudos</h3>
+      </div>
+
+      <div class="tech-grid">
+
+        <div class="card">
+          <h4>Uso atualmente</h4>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h4>Aprendendo</h4>
+
+          <div class="tags">
+            <span>Java</span>
+            <span>C#</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="projetos">
+
+    <div class="container">
+
+      <div class="section-title">
+        <p>Projetos</p>
+        <h3>Projetos desenvolvidos</h3>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="card">
+          <h4>Cardápio em PHP</h4>
+
+          <p>
+            Projeto acadêmico utilizando PHP,
+            lógica de programação e organização de pedidos.
+          </p>
+        </div>
+
+        <div class="card">
+          <h4>To-Do List</h4>
+
+          <p>
+            Aplicação simples para gerenciamento de tarefas
+            usando JavaScript.
+          </p>
+        </div>
+
+        <div class="card">
+          <h4>Projetos Acadêmicos</h4>
+
+          <p>
+            Projetos desenvolvidos durante a graduação em ADS.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="contato">
+
+    <div class="container">
+
+      <div class="section-title">
+        <p>Contato</p>
+        <h3>Vamos criar algo juntos.</h3>
+      </div>
+
+      <div class="card contato-card">
+
+        <p>Email: lelesilva0404@gmail.com</p>
+
+        <div class="buttons contato-buttons">
+
+          <a
+            href="https://github.com/LebrazZ"
+            target="_blank"
+            class="btn primary"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/let%C3%ADcia-silva-braz-770307345"
+            target="_blank"
+            class="btn"
+          >
+            LinkedIn
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 Leticia Braz • Desenvolvido com dedicação e criatividade.
+  </footer>
+
+  <script src="js/script.js"></script>
 
 </body>
 </html>
