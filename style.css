@@ -154,14 +154,14 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 40px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .card {
   background: #4e0121;
   border: 1px solid #ce0c76;
   border-radius: 24px;
-  padding: 35px;
+  padding: 45px;
   transition: 0.3s;
 }
 
@@ -227,9 +227,9 @@ footer {
     font-size: 2rem;
   }
 
-  .card .btn{
-    margin-top: 25px;
-    display: inline-block;
-  }
-  
+ .card a{
+  display: inline-block;
+  margin-top: 25px;
+}
+
 }
