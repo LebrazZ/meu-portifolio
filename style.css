@@ -151,7 +151,10 @@ section {
 
 .tech-grid,
 .projects-grid {
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
 }
 
 .card {
@@ -224,4 +227,8 @@ footer {
     font-size: 2rem;
   }
 
+  .card .btn{
+    margin-top: 25px;
+    display: inline-block;
+  }
 }
