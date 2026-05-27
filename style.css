@@ -23,6 +23,8 @@ a {
   margin: auto;
 }
 
+/* HEADER */
+
 header {
   position: fixed;
   top: 0;
@@ -59,6 +61,8 @@ nav a:hover {
   color: white;
 }
 
+/* HERO */
+
 .hero {
   min-height: 100vh;
   display: flex;
@@ -71,7 +75,7 @@ nav a:hover {
 }
 
 .subtitle {
-  color: #7a7a7a;
+  color: #d38ab0;
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-bottom: 20px;
@@ -84,16 +88,18 @@ nav a:hover {
 }
 
 .hero h2 span {
-  color:#f7aed0;
+  color: #f7aed0;
 }
 
 .description {
   max-width: 700px;
   margin: auto;
-  color: #b3b3b3;
+  color: #e4c3d3;
   font-size: 1.1rem;
   margin-bottom: 40px;
 }
+
+/* BOTÕES */
 
 .buttons {
   display: flex;
@@ -105,7 +111,7 @@ nav a:hover {
 .btn {
   padding: 14px 28px;
   border-radius: 14px;
-  border: 1px solid #64043c;
+  border: 1px solid #9c0d5c;
   transition: 0.3s;
   font-weight: 500;
 }
@@ -119,6 +125,8 @@ nav a:hover {
   color: black;
 }
 
+/* SEÇÕES */
+
 section {
   padding: 120px 0;
 }
@@ -128,7 +136,7 @@ section {
 }
 
 .section-title p {
-  color: #7a7a7a;
+  color: #d38ab0;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 10px;
@@ -138,15 +146,12 @@ section {
   font-size: 2.8rem;
 }
 
-.about-grid,
-.tech-grid,
-.projects-grid {
-  display: grid;
-  gap: 30px;
-}
+/* GRIDS */
 
 .about-grid {
+  display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 40px;
 }
 
 .tech-grid,
@@ -156,6 +161,8 @@ section {
   gap: 40px;
   margin-top: 50px;
 }
+
+/* CARDS */
 
 .card {
   background: #4e0121;
@@ -167,7 +174,7 @@ section {
 
 .card:hover {
   transform: translateY(-5px);
-  border-color: #3a3a40;
+  border-color: #ff4fa3;
 }
 
 .card h4 {
@@ -176,8 +183,18 @@ section {
 }
 
 .card p {
-  color: #b3b3b3;
+  color: #e4c3d3;
+  line-height: 1.8;
 }
+
+/* BOTÃO DENTRO DO CARD */
+
+.card a {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+/* TAGS */
 
 .tags {
   display: flex;
@@ -189,8 +206,10 @@ section {
   background: #d10866;
   padding: 10px 16px;
   border-radius: 12px;
-  color: #d1d1d1;
+  color: white;
 }
+
+/* CONTATO */
 
 .contato-card {
   display: flex;
@@ -202,12 +221,16 @@ section {
   justify-content: flex-start;
 }
 
+/* FOOTER */
+
 footer {
   padding: 40px 20px;
   text-align: center;
   border-top: 1px solid #660230;
-  color: #7a7a7a;
+  color: #d38ab0;
 }
+
+/* RESPONSIVO */
 
 @media (max-width: 768px) {
 
@@ -226,10 +249,5 @@ footer {
   .section-title h3 {
     font-size: 2rem;
   }
-
- .card a{
-  display: inline-block;
-  margin-top: 25px;
-}
 
 }
