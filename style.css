@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background: #0f0f10;
+  background: #6b013f;
   color: white;
   line-height: 1.6;
 }
@@ -27,7 +27,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(15, 15, 16, 0.9);
+  background: rgba(75, 2, 44, 0.9);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid #1f1f22;
   z-index: 1000;
@@ -51,7 +51,7 @@ nav {
 }
 
 nav a {
-  color: #b3b3b3;
+  color: #f7aed0;
   transition: 0.3s;
 }
 
@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 .hero h2 span {
-  color: #8e8e8e;
+  color:#f7aed0;
 }
 
 .description {
@@ -105,7 +105,7 @@ nav a:hover {
 .btn {
   padding: 14px 28px;
   border-radius: 14px;
-  border: 1px solid #2a2a2d;
+  border: 1px solid #64043c;
   transition: 0.3s;
   font-weight: 500;
 }
@@ -155,8 +155,8 @@ section {
 }
 
 .card {
-  background: #171719;
-  border: 1px solid #252529;
+  background: #4e0121;
+  border: 1px solid #ce0c76;
   border-radius: 24px;
   padding: 35px;
   transition: 0.3s;
@@ -183,7 +183,7 @@ section {
 }
 
 .tags span {
-  background: #232326;
+  background: #d10866;
   padding: 10px 16px;
   border-radius: 12px;
   color: #d1d1d1;
@@ -202,7 +202,7 @@ section {
 footer {
   padding: 40px 20px;
   text-align: center;
-  border-top: 1px solid #1f1f22;
+  border-top: 1px solid #660230;
   color: #7a7a7a;
 }
 
